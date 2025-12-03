@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameboard"></div>
+<p id ="info"></p>
+<br/>
+
+<form id="form">
+    <input type="text" id="p1" placeholder="Nom du Joueur 1">
+    <input type="text" id="p2" placeholder="Nom du Joueur 2">
+    <input type="submit" value="Commencer la partie">
+    <a href="#" id="reset">Recommencer la partie</a>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th> </th>
+            <th id="player1">Joeur1 -> X</th>
+            <th id="player2">Joueur2 -> O</th>
+            <th>Match nuls</th>   
+        </tr>
+        <tr>
+            <th>Score </th>
+            <th id="score1">0</th>
+            <th id="score2">0</th>
+            <th id="Null">0</th>
+        </tr>
+    </thead>
+</table>
+<script src="tic.js"> </script>
+</body>
+</html> 

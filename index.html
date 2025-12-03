@@ -7,25 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="gameboard"></div>
-<p id ="info"></p>
-<br/>
-<table>
-    <thead>
-        <tr>
-            <th> </th>
-            <th id="player1">Joeur1 -> X</th>
-            <th id="player2">Joueur2 -> O</th>
-            <th>Match nuls</th>   
-        </tr>
-        <tr>
-            <th>Score </th>
-            <th id="score1">0</th>
-            <th id="score2">0</th>
-            <th id="Null">0</th>
-        </tr>
-    </thead>
-</table>
-<script src="tic.js"> </script>
+<h1>Welcome to the Tic tac toe game </h1>
+
+<form id="playerForm">
+
+    <input type="text" id="player1" placeholder="Joueur 1" required>
+    <br><br>
+    <input type="text" id="player2" placeholder="Joueur 2" required>
+    <br><br>
+    <button type="submit">Commencer</button>
+</form>
+
 </body>
 </html> 
